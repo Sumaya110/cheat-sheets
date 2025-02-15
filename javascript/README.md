@@ -1,7 +1,10 @@
-# JavaScript
+
+# Javascript
 
 
-## Callback vs Promises Vs Async Await
+
+
+## CallBack vs Promises Vs Async Await
 
 async await >> promises chain >> callback hell
 ## Callback
@@ -13,3 +16,11 @@ A CallBack is a function passed as an argument to another function.
 Nested callbacks stacked below one another forming a pyramid structure (pyramid of doom).
 
 This style of programming becomes difficult to understand and manage.
+## Promises
+Promise is for eventual completion of task. It is an object in js. It is a solution to callback hell.
+
+```let promise = new Promise((resolve, reject)=>{ })  // function with two handlers```
+
+*resolve & reject are two callbacks provided by JS
+
+
