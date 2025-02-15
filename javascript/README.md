@@ -19,8 +19,14 @@ This style of programming becomes difficult to understand and manage.
 ## Promises
 Promise is for eventual completion of task. It is an object in js. It is a solution to callback hell.
 
-```let promise = new Promise((resolve, reject)=>{ })  // function with two handlers```
+```let promise = new Promise((resolve, reject)=>{ }) // function with two handlers```
 
 *resolve & reject are two callbacks provided by JS
+
+.then() & .catch()
+
+``` promise.then((res)=> {.....}) ```\
+``` promise.catch((err)=>{...}) ```
+
 
 
