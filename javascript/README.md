@@ -30,3 +30,10 @@ Promise is for eventual completion of task. It is an object in js. It is a solut
 
 
 
+
+## Async Await
+Async function always returns a promise.
+
+``` async function myFunc(){...} ``` 
+
+Await pauses the execution of its sorrounding async function until the promise is settled.
