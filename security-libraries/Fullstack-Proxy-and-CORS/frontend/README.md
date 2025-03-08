@@ -14,3 +14,17 @@ server: {
   },
 
 ```
+
+ http://localhost:4000 will be added before any route starts with /api
+```
+  useEffect(() => {
+    axios.get('/api/jokes')
+      .then((response) => {
+        console.log("data  : ", response.data)
+        setJokes(response.data); 
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []); 
+```
